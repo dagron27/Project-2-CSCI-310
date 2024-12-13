@@ -1,0 +1,236 @@
+Script started on Mon 03 Jul 2023 09:26:25 PM CDT
+]0;mm8755tt@csci4:~/PROJECTS/PROJECT_2[?1034h[mm8755tt@csci4 PROJECT_2]$ g++ project2.cpp
+]0;mm8755tt@csci4:~/PROJECTS/PROJECT_2[mm8755tt@csci4 PROJECT_2]$ ./a.out
+
+Welcome to XXX SHOPPING CENTER.
+Enter the item you selected as the following order: 
+name unitPrice quantity
+(Name can not contain any space. Otherwise errors happen!)
+--> T-shirt 19.99 2
+Want to continue y/n-->y
+
+--> Swa eater 39.99 2
+Want to continue y/n-->y
+
+--> iphone_case 25.50 3
+Want to continue y/n-->y
+
+--> Towel 9.99 5
+Want to continue y/n-->n
+
+Here is your order: 
+--------------------------------------------------
+Name                Unit_Price          Quantity            
+T-shirt             $19.99               2                   
+Sweater             $39.99               2                   
+iphone_case         $25.5                3                   
+Towel               $9.99                5                   
+The total charge is $246.41
+--------------------------------------------------
+
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add 2: remove 3: change quantity
+--> 1
+Enter the item to add as the following order: 
+name unitPrice quantity
+--> Shoe 99.99 1
+The item has been added.
+
+Want to modify your order? y/n-->2 y
+What do you want? Enter 1: add 2: remove 3: change quantity
+--> 2
+Enter the item to remove as the following order: 
+name unitPrice quantity
+--> Sweater 29.99 2
+No such item in your shopping cart!
+
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add 2: remove 3: change quantity
+--> 2
+Enter the item to remove as the following order: 
+name unitPrice quantity
+--> Sweater 39.99 2
+The item has been removed.
+
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add 2: remove 3: change quantity
+--> 3
+Enter the item to change as the following order: 
+name unitPrice quantity
+--> Towel 9.99 5
+Enter a new quantity --> -2
+-2 is not a valid input.
+Enter a new quantity --> 2
+The quantity has been modified.
+
+Want to modify your order? y/n-->n
+
+Here is your updated order: 
+--------------------------------------------------You have ordered the following items: 
+
+Name                Unit_Price          Quantity            
+T-shirt             $19.99               2                   
+Shoe                $99.99               1                   
+iphone_case         $25.5                3                   
+Towel               $9.99                2                   
+The total charge is $236.45
+Thanks for shopping in XXX SHOPPING CENTER.
+--------------------------------------------------
+
+]0;mm8755tt@csci4:~/PROJECTS/PROJECT_2[mm8755tt@csci4 PROJECT_2]$ ./a.out
+
+Welcome to XXX SHOPPING CENTER.
+Enter the item you selected as the following order: 
+name unitPrice quantity
+(Name can not contain any space. Otherwise errors happen!)
+--> T-shirt 19.99 2
+Want to continue y/n-->y
+
+--> Sweater 39.99 2
+Want to continue y/n-->n
+
+Here is your order: 
+--------------------------------------------------
+Name                Unit_Price          Quantity            
+T-shirt             $19.99               2                   
+Sweater             $39.99               2                   
+The total charge is $119.96
+--------------------------------------------------
+
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add 2: remove 3: change quantity
+--> 1
+Enter the item to add as the following order: 
+name unitPrice quantity
+--> iphone_case 25.50 3
+The item has been added.
+
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add 2: remove 3: change quantity
+--> 2
+Enter the item to remove as the following order: 
+name unitPrice quantity
+--> Sweater 29.99 2
+No such item in your shopping cart!
+
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add 2: remove 3: change quantity
+--> 2
+Enter the item to remove as the following order: 
+name unitPrice quantity
+--> Sweater 39.99 2
+The item has been removed.
+
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add 2: remove 3: change quantity
+--> 3
+Enter the item to change as the following order: 
+name unitPrice quantity
+--> T-shirt 19.99 2
+Enter a new quantity --> -3
+-3 is not a valid input.
+Enter a new quantity --> 3
+The quantity has been modified.
+
+Want to modify your order? y/n-->n
+
+Here is your updated order: 
+--------------------------------------------------You have ordered the following items: 
+
+Name                Unit_Price          Quantity            
+iphone_case         $25.5                3                   
+T-shirt             $19.99               3                   
+The total charge is $136.47
+Thanks for shopping in XXX SHOPPING CENTER.
+--------------------------------------------------
+
+]0;mm8755tt@csci4:~/PROJECTS/PROJECT_2[mm8755tt@csci4 PROJECT_2]$ ./a.out
+
+Welcome to XXX SHOPPING CENTER.
+Enter the item you selected as the following order: 
+name unitPrice quantity
+(Name can not contain any space. Otherwise errors happen!)
+--> a 9.99 2
+Want to continue y/n-->y
+
+--> b 5.99 3
+Want to continue y/n-->y
+
+--> c 3.99 6
+Want to continue y/n-->y
+
+--> d 4.99 4
+Want to continue y/n-->y
+
+--> e 8.50 1
+Want to continue y/n-->y
+
+--> f 7.49 2
+Want to continue y/n-->n
+
+Here is your order: 
+--------------------------------------------------
+Name                Unit_Price          Quantity            
+a                   $9.99                2                   
+b                   $5.99                3                   
+c                   $3.99                6                   
+d                   $4.99                4                   
+e                   $8.5                 1                   
+f                   $7.49                2                   
+The total charge is $105.33
+--------------------------------------------------
+
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add 2: remove 3: change quantity
+--> 1
+Enter the item to add as the following order: 
+name unitPrice quantity
+--> T-shirt 19.99 2
+The item has been added.
+
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add 2: remove 3: change quantity
+--> re  2
+Enter the item to remove as the following order: 
+name unitPrice quantity
+--> T-shirt 19.99 2
+No such item in your shopping cart!
+
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add 2: remove 3: change quantity
+--> 3
+Enter the item to change as the following order: 
+name unitPrice quantity
+--> T-shirt 19.99 2
+No such item in your shopping cart!
+
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add 2: remove 3: change quantity
+--> 3
+Enter the item to change as the following order: 
+name unitPrice quantity
+--> c 3.99 6
+Enter a new quantity --> -4
+-4 is not a valid input.
+Enter a new quantity --> 2
+The quantity has been modified.
+
+Want to modify your order? y/n-->n
+
+Here is your updated order: 
+--------------------------------------------------You have ordered the following items: 
+
+Name                Unit_Price          Quantity            
+a                   $9.99                2                   
+b                   $5.99                3                   
+f                   $7.49                2                   
+d                   $4.99                4                   
+e                   $8.5                 1                   
+c                   $3.99                2                   
+The total charge is $89.37
+Thanks for shopping in XXX SHOPPING CENTER.
+--------------------------------------------------
+
+]0;mm8755tt@csci4:~/PROJECTS/PROJECT_2[mm8755tt@csci4 PROJECT_2]$ exit
+
+Script done on Mon 03 Jul 2023 09:34:47 PM CDT
