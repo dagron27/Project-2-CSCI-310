@@ -18,6 +18,11 @@ bool ShoppingCart::add(const Item& newEntry)
 	{
 		// If can add, add to current totalPrice by (newEntry's price x newEntry's quantity)
 		totalPrice += (newEntry.getUnitPrice() * newEntry.getQuantity());	
+		return true;
+	}
+	else
+	{
+		return false;
 	}
 }
 
@@ -30,6 +35,11 @@ bool ShoppingCart::remove(const Item& anEntry)
 	{
 		// If can remove, subtract from current totalPrice by (anEntry's price x anEntry's quantity)
 		// Assumes user input correct quantity */
-		totalPrice -= (anEntry.getUnitPrice() * anEntry.getQuantity());		
+		totalPrice -= (anEntry.getUnitPrice() * anEntry.getQuantity());	
+		return true;	
+	}
+	else
+	{
+		return false;
 	}
 }
